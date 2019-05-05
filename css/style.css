@@ -1,0 +1,123 @@
+﻿@font-face {
+	font-family: 'AIRSTRIKEBOLD';
+	src: url('font/AIRSTRIKEBOLD.eot');
+	src: local('O'), url('fonts/AIRSTRIKEBOLD.woff') format('woff'), url('fonts/AIRSTRIKEBOLD.ttf') format('truetype'), url('fonts/AIRSTRIKEBOLD.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'AIRSTRIKE';
+	src: url('font/AIRSTRIKE.eot');
+	src: local('O'), url('fonts/AIRSTRIKE.woff') format('woff'), url('fonts/AIRSTRIKE.ttf') format('truetype'), url('fonts/AIRSTRIKE.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body.style1{
+	background: lightgrey;
+	
+}
+table{
+	width:900px;
+	margin: 0 auto;
+}
+table td{
+	display: block;
+}
+.header{
+	background: green;
+	margin-bottom: 20px;
+	height: 100px;
+}
+h1{
+	font-family: 'AIRSTRIKEBOLD';
+	font-size: 40px;
+	text-align: center;
+	padding-top: 20px;
+}
+p{
+	padding: 20px;
+	font-family: 'AIRSTRIKE';
+	text-align: justify;
+	line-height: 24px;
+	font-size: 18px;
+}
+.nav{
+	height: 40px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.nav a{
+	padding: 10px;
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	font-family: 'AIRSTRIKEBOLD';
+	min-width: 100px;
+	background: grey;
+	text-align: center;
+	transition: all 0.3s;
+}
+.nav a:hover, .nav a.active{
+	color: blue;
+	transition: all 0.3s;
+}
+.nav a:active{
+	opacity: 0.5;
+	transition: all 0.3s;
+}
+.asideleft, .article, .asideright{
+	min-height: 500px;
+	border: 1px solid grey;
+	float: left;
+	margin-bottom: 20px;
+}
+.asideleft, .asideright{
+	width: 180px;	
+}
+.asideleft a{
+	display: inline-block;
+	background: grey;
+	text-decoration: none;
+	font-family: 'AIRSTRIKE';
+	font-size: 16px;
+	padding: 10px;
+	margin: 20px 15px -15px 15px;
+	color: white;
+	min-width:150px;
+}
+.asideleft a:hover, .asideleft a.active{
+	color: blue;
+	transition: all 0.3s;
+}
+.asideleft a:active{
+	opacity; 0.5;
+}
+.article{
+	margin: 0 20px;
+	width: 500px;
+}
+.asideright img{
+	margin: 30px 20px -20px 40px;
+}
+.footer{
+	height: 100px;
+	background: black;
+	text-align: center;
+}
+.footer a{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	margin: 40px 10px 0 10px;
+	transition: all 0.3s;
+}
+.footer a:hover{
+	color: blue;
+	transition: all 0.3s;
+}
