@@ -1,2 +1,2 @@
 # teterev-website
-Simple website for training
+Simple website for training. Desktop version only.
